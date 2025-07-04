@@ -2,6 +2,13 @@
 
 arr = [2, 8, 9, 48, 8, 22, -12, 2]
 print(f"{arr}")
+
+for i in range(len(arr)):
+    arr[i] += 2
 new_arr = []
-arr2 = set(arr)
-print(f"{arr2}")
+for i in range(len(arr)):
+    if arr[i] > 5:
+        new_arr.append(arr[i])
+
+new_arr = list(set(new_arr))
+print(f"{new_arr}")
