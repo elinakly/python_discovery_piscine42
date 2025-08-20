@@ -11,6 +11,6 @@ The piscine is an intensive crash course designed to introduce Python from scrat
 Clone the repository and run Python scripts:
 
 ```bash
-git clone https://github.com/elinakly/python_discovery_piscine42.git
+git clone git@github.com:elinakly/python_discovery_piscine42.git
 cd python_discovery_piscine42
 python3 <file>.py
